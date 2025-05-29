@@ -6,7 +6,7 @@ app = FastAPI(title="TradeMo API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://fastapi.trademo.boutique"],
+    allow_origins=["https://trademo.boutique"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
